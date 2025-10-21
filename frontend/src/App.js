@@ -2,12 +2,12 @@ import { withAuthenticator } from "@aws-amplify/ui-react";
 import "@aws-amplify/ui-react/styles.css";
 
 import { Amplify, Auth } from "aws-amplify";
-import awsconfig from "./aws-exports";
+//import awsconfig from "./aws-exports";
 import "./App.css";
 import ASLForm from "./components/ASLForm.js";
 
-Amplify.configure(awsconfig);
-Auth.configure(awsconfig);
+//Amplify.configure(awsconfig);
+//Auth.configure(awsconfig);
 
 function App({ signOut, user }) {
   return (
